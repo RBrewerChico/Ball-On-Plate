@@ -13,15 +13,22 @@
   </p>
 <p align="center"><b> Fall 2021
    </p>
- Table of Contents
-  Table of Contents
-1. [Introduction]
-2. [Mathamatical Models & System Requirements]
-3. [MATLAB Code and Testing]
-4. [Simulink]
-5. [Coppelia]
-6. [Conclusion]
-7. [References]
+ <p align="left"><b>Table of Contents
+    </p>
+<p align="left">1. [Introduction]
+   </p>
+<p align="left">2. [Mathamatical Models & System Requirements]
+   </p>
+<p align="left">3. [MATLAB Code and Testing]
+   </p>
+<p align="left">4. [Simulink]
+   </p>
+<p align="left">5. [Coppelia]
+   </p>
+<p align="left">6. [Conclusion]
+   </p>
+<p align="left">7. [References]
+   </p>
   
 ## 1. Introduction
 ## 2. Mathamatical Models & System Requirements
