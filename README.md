@@ -31,9 +31,18 @@
    </p>
   
 ## 1. Introduction
+The purpose of this system is to balance a ball on a plate using two stepper motors attached in line to the bottom side of the plate. The ball would be placed on the plate, the plate would move in the desired axis to center the ball on the plate. The biggest challenge for this project is the plate positioning as well as the ball balance math. These have to work in kind to produce a position on the plate. The plate is linked via X and Y axis that are shown in the picture below.
+
 ## 2. Mathamatical Models & System Requirements
+The modeling used for our X-axis was replicated as well for the Y-axis. The model given by...(finish)
+
 ## 3. MATLAB Code and Testing
+
+
 ## 4. Simulink
+
 ## 5. Coppelia
+
 ## 6. Conclusion
+
 ## 7. References
