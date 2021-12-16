@@ -46,6 +46,11 @@ The lapace of the linear equation can be used to find the transfer function
 <p align="center">
 <img src="Images/TransferFunction.png">
 <p align="center"><b>Figure 4: Transfer Function
+
+using the measure ball position, the servo shaft angle is computed to find the desired ball position. the block diagram controls the servo position using proportional gain and derivative gain
+<p align="center">
+<img src="Images/BlockDiagram.png">
+<p align="center"><b>Figure 5: Control System Block Diagram
   
 With the specifications of less than 5% overshoot and less then 3 seconds of settling time, an equation for the damping ratio and natural frequency can be found
 <p align="center">
