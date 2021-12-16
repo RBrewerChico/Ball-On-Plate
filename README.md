@@ -110,6 +110,6 @@ The coppelia model utilized multiple joint connections as well as dynamic object
   
 <p align="center">
   <img src="Images/Final Matlab Simulation Code(1).png">
-  <img src="Images/Final Matlab Simulation Code(2).png>"
+  <img src="Images/Final Matlab Simulation Code(2).png">
        
 ## 6. References
