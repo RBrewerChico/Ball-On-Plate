@@ -37,7 +37,11 @@ The purpose of this system is to balance a ball on a plate using two stepper mot
 The modeling used for our X-axis was replicated as well for the Y-axis. The model given by...(finish)
 
 ## 3. MATLAB Code and Testing
-
+The following figure contains the Matlab code used. 
+The interpretation of the code is as follows:
+Clear all possible variables, create a link to coppelia, create/ set up physical parameters, run code (if connected to coppelia), display fail connection error (if not connected to coppelia);
+Once connected to coppelia code continues to run in the following order:
+Initialize simulink, set up handles, gather coppelia dta, update simulink value(s), run simulink, output data from simulink, send output data to coppelia to change motor angle, repeat (until coppelia is not running).
 
 ## 4. Simulink
 
