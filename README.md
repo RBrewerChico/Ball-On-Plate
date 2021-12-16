@@ -52,13 +52,17 @@ The mathematical model was tested using the following Matlab code and simulink:
   <img src="Images/Simulink Testing Diagram.png">
            
            
-<p align="center">
-  <img src="Images/Simulink Testing Graph.png">
+
 
 
   
 ## 4. Simulink
-
+The figure below displays the final Simulink result file used for this project. Walking through the image, the first step is to enter a desired position for the ball. From here, the balls position is obtained and inputed into the left side of the Simulink image. The obtained data is from the coppelia and Matlab codes explained in the previous sections. The next step is calculating the motor angle, which is a direct result of the Simulink simulation. The final step for Simulink is a reverse of an earlier step; the calculated motor angle value is transferred back into the Coppelia and Matlab code, thus alerting the motor of the required motor angle.
+  
+<p align="center">
+  <img src="Images/Simulink Testing Graph.png">
+  
+  
 ## 5. Coppelia
 
 ## 6. Conclusion
