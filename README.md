@@ -13,23 +13,15 @@
   </p>
 <p align="center"><b> Fall 2021
    </p>
- <p align="left"><b>Table of Contents
-    </p>
-<p align="left">1. [Introduction](https://github.com/RBrewerChico/Ball-On-Plate/main/README.md#1-introduction)
-   </p>
-<p align="left">2. [Mathamatical Models & System Requirements]
-   </p>
-<p align="left">3. [MATLAB Code and Testing]
-   </p>
-<p align="left">4. [Simulink]
-   </p>
-<p align="left">5. [Coppelia]
-   </p>
-<p align="left">6. [Conclusion]
-   </p>
-<p align="left">7. [References]
-   </p>
-  
+ Table of Contents
+ 1. [Introduction]
+ 2. [Mathamatical Models & System Requirements]
+ 3. [MATLAB Code and Testing]
+ 4. [Simulink]
+ 5. [Coppelia]
+ 6. [Conclusion]
+ 7. [References]
+   
 ## 1. Introduction
 The purpose of this system is to balance a ball on a plate using two stepper motors attached in line to the bottom side of the plate. The ball would be placed on the plate, the plate would move in the desired axis to center the ball on the plate. The biggest challenge for this project is the plate positioning as well as the ball balance math. These have to work in kind to produce a position on the plate. The plate is linked via X and Y axis that are shown in the picture below.
 
@@ -48,11 +40,6 @@ The lapace of the linear equation can be used to find the transfer function
 <p align="center">
 <img src="Images/TransferFunction.png">
 <p align="center"><b>Figure 4: Transfer Function
- 
-Using the balls measured position, the servo shaft angle is calculated to get the ball into the desired position. the loop of this block diagram uses proportional gain and derivative gain to position the servos accordingly
-<p align="center">
-<img src="Images/Block Diagram.png"> 
- <p align="center"><b>Figure 5: Control System Block Diagram
   
 With the specifications of less than 5% overshoot and less then 3 seconds of settling time, an equation for the damping ratio and natural frequency can be found
 <p align="center">
