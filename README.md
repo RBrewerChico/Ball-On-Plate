@@ -132,3 +132,6 @@ The coppelia model utilized multiple joint connections as well as dynamic object
   <img src="Images/Final Matlab Simulation Code(2).png">
        
 ## 6. References
+  Ball and plate. (n.d.). Retrieved December 16, 2021, from https://create.arduino.cc/projecthub/davidhamor/ball-and-plate-c48027
+  Galvan-Colmenares, S., Moreno-Armendáriz, M. A., Rubio, J. D., Ortíz-Rodriguez, F., Yu, W., &amp; Aguilar-Ibáñez, C. F. (2014). Dual PD control regulation with nonlinear   compensation for a ball and plate system. Mathematical Problems in Engineering, 2014, 1-10. doi:10.1155/2014/894209
+  NISE, N. S. (2020). Control Systems Engineering. S.l.: JOHN WILEY.
