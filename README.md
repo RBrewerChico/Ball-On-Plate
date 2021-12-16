@@ -83,8 +83,7 @@ The below image is a graph depicitng output data from Matlab of position vs. tim
   <img src="Images/Simulink Testing Graph.png">
 
 
-  
--Simulink
+### Simulink
   
 The figure below displays the final Simulink result file used for this project. Walking through the image, the first step is to enter a desired position for the ball. From here, the balls position is obtained and inputed into the left side of the Simulink image. The obtained data is from the coppelia and Matlab codes explained in the previous sections. The next step is calculating the motor angle, which is a direct result of the Simulink simulation. The final step for Simulink is a reverse of an earlier step; the calculated motor angle value is transferred back into the Coppelia and Matlab code, thus alerting the motor of the required motor angle.
   
@@ -92,7 +91,7 @@ The figure below displays the final Simulink result file used for this project. 
   <img src="Images/Simulink Testing Diagram.png">
   
   
--Coppelia
+### Coppelia
   
 To model the physical ball and plate system, coppelia was used. The following image displays the coppelia image for this project.
 
