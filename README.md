@@ -91,6 +91,8 @@ The interpretation of the code is as follows:
 Clear all possible variables, create a link to coppelia, create/ set up physical parameters, run code (if connected to coppelia), display fail connection error (if not connected to coppelia);
 Once connected to coppelia code continues to run in the following order:
 Initialize simulink, set up handles, gather coppelia data, update simulink value(s), run simulink, output data from simulink, send output data to coppelia to change motor angle, repeat (until coppelia is not running).
+  
+For the provided Matlab code in the below figure, note that manual switches were added. This was added because the link between copellia and Matlab could not be properly configured with the current code chunks.
 
 The mathematical model was tested using the following Matlab code and simulink:
 <p align="center">
