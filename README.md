@@ -15,21 +15,26 @@
    </p>
  Table of Contents
  1. [Introduction]
- 2. [Mathamatical Models & System Requirements](https://github.com/RBrewerChico/Ball-On-Plate#2-Mathamatical-Models--System-Requirements)
- 3. [MATLAB Code and Testing]
- 4. [Simulink]
- 5. [Coppelia]
+ 2. [Modeling]
+    -Mathematical Equations
+    -Working System Definiton
+ 3. [Controller Design & Simulation]
+    -Simulink
+    -Coppelia
  6. [Conclusion]
- 7. [References]
+ 7. [Appendix]
+ 8. [References]
    
 ## 1. Introduction
 The purpose of this system is to balance a ball on a plate using two stepper motors attached in line to the bottom side of the plate. The ball would be placed on the plate, the plate would move in the desired axis to center the ball on the plate. The biggest challenge for this project is the plate positioning as well as the ball balance math. These have to work in kind to produce a position on the plate. The plate is linked via X and Y axis that are shown in the picture below.
 
-## 2. Mathamatical Models & System Requirements
+## 2. Modeling
 The modeling used for our X-axis was replicated for the Y-axis due to symetry in the model. The model in figure 1 was used to solve the the nonliear equation of motion of the ball
 <p align="center">
 <img src="Images/nonlinear.png">
 <p align="center"><b>Figure 2: Equation for Nonlinear Motion 
+
+#Mathematical Equations 
   
 The arm of the motor and its relationship to the angle of the plate can be used with small angle approximation to form a near linearization equation
 <p align="center">
@@ -58,7 +63,11 @@ These can be used to find proportional and derivative gain
 <img src="Images/DerivativeGain.png">
 <p align="center"><b>Figure 9: Derivative Gain Equation
   
-## 3. MATLAB Code and Testing
+#Working System Definition
+  
+  
+## 3. Controller Design & Simulation
+  
 The following figure contains the Matlab code used. 
 The interpretation of the code is as follows:
 Clear all possible variables, create a link to coppelia, create/ set up physical parameters, run code (if connected to coppelia), display fail connection error (if not connected to coppelia);
@@ -78,14 +87,15 @@ The below image is a graph depicitng output data from Matlab of position vs. tim
 
 
   
-## 4. Simulink
+#Simulink
+  
 The figure below displays the final Simulink result file used for this project. Walking through the image, the first step is to enter a desired position for the ball. From here, the balls position is obtained and inputed into the left side of the Simulink image. The obtained data is from the coppelia and Matlab codes explained in the previous sections. The next step is calculating the motor angle, which is a direct result of the Simulink simulation. The final step for Simulink is a reverse of an earlier step; the calculated motor angle value is transferred back into the Coppelia and Matlab code, thus alerting the motor of the required motor angle.
   
 <p align="center">
   <img src="Images/Simulink Testing Diagram.png">
   
   
-## 5. Coppelia
+#Coppelia
 
 ## 6. Conclusion
 
