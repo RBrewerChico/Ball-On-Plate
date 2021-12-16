@@ -96,6 +96,13 @@ The figure below displays the final Simulink result file used for this project. 
   
   
 #Coppelia
+  
+To model the physical ball and plate system, coppelia was used. The following image displays the coppelia image for this project.
+
+<p align="center">  
+  <img src="Images/Ball and Plate Coppelia.png">
+
+The coppelia model utilized multiple joint connections as well as dynamic objects. The plate (where the ball has free motion) was held in place using a series of rods and joints. More specifically, a spherical joint served as the direct connection to the plate and this allows the plate to rotate/ swivel in all directions. Connected to the spherical joint are two support rods with a linearly sliding prismatic joint. The prismatic joint serves as a connection for the two support rods and allows the plate to move vertically. The combination of the unique joints and rods allows the system to move in three dimensions across the x-, y-, and z- axes. The motion of the support rods is provided by two motors. The final object in the ball and plate system modled in coppelia is a vision sensor that is above the plate. The location of the vision sensor provides a birds-eye view of the plate which allows for sensing ball position and movement.
 
 ## 6. Conclusion
 
