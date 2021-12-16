@@ -50,7 +50,7 @@ The mathematical model was tested using the following Matlab code and simulink:
   <img src="Images/Simulink Testing Code(2).png">
 
            
-           
+The below image is a graph depicitng output data from Matlab of position vs. time of the ball of the system. Note that the x- and y- positions of the ball are listed independently on the graph and the y- position rapidly increases in relation to the x- position.          
 <p align="center">
   <img src="Images/Simulink Testing Graph.png">
 
