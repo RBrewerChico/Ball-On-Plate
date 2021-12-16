@@ -44,7 +44,19 @@ Once connected to coppelia code continues to run in the following order:
 Initialize simulink, set up handles, gather coppelia data, update simulink value(s), run simulink, output data from simulink, send output data to coppelia to change motor angle, repeat (until coppelia is not running).
 
 The mathematical model was tested using the following Matlab code and simulink:
+<p align="center">
+  <img src="Images/Simulink Testing Code(1).png">
+<p align="center">
+  <img src="Images/Simulink Testing Code(2).png">
+<p align="center">
+  <img src="Images/Simulink Testing Diagram.png">
+           
+           
+<p align="center">
+  <img src="Images/Simulink Testing Graph.png">
 
+
+  
 ## 4. Simulink
 
 ## 5. Coppelia
