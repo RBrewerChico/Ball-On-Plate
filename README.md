@@ -35,10 +35,9 @@ The purpose of this system is to balance a ball on a plate using two stepper mot
 
 ## 2. Mathamatical Models & System Requirements
 The modeling used for our X-axis was replicated for the Y-axis due to symetry in the model. The model in figure 1 was used to solve the the nonliear equation of motion of the ball
-
-
 <p align="center">
 <img src="Images/nonlinear.png">
+<p align="center"><b>Figure 2: Equation for Nonlinear Motion 
   
 <p align="center">
 <img src="Images/LinearArm.png">
