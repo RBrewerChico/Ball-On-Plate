@@ -56,7 +56,7 @@ using the measure ball position, the servo shaft angle is computed to find the d
 <img src="Images/Block Diagram.png">
 <p align="center"><b>Figure 5: Control System Block Diagram
   
-With the specifications of less than 5% overshoot and less then 3 seconds of settling time, an equation for the damping ratio and natural frequency can be found
+With the specifications of less than 10% overshoot and less then 6 seconds of settling time, an equation for the damping ratio and natural frequency can be found
 <p align="center">
 <img src="Images/Zeta.png">
 <p align="center"><b>Figure 6: Damping Ratio Equation 
