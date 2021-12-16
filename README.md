@@ -60,6 +60,7 @@ These can be used to find proportional and derivative gain
 <p align="center">
 <img src="Images/DerivativeGain.png">
 <p align="center"><b>Figure 9: Derivative Gain Equation
+  
 ## 3. MATLAB Code and Testing
 The following figure contains the Matlab code used. 
 The interpretation of the code is as follows:
