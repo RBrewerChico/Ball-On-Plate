@@ -72,13 +72,16 @@ These can be used to find proportional and derivative gain
 <p align="center">
 <img src="Images/DerivativeGain.png">
 <p align="center"><b>Figure 9: Derivative Gain Equation
- 
+
+  
+### Working System Definition
+  
 The following are the requirments of a working system
 <p align="center">
 <img src="Images/WorkingSystem.png">
 <p align="center"><b>Figure 10: Working System Requirments
   
-### Working System Definition
+
   
   
 ## 3. Controller Design & Simulation
