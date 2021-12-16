@@ -48,7 +48,7 @@ The modeling used for our X-axis was replicated as well for the Y-axis. The mode
 <img src="Images/Zeta.png">
   
 <p align="center">
-<img src="Images/NaturalFrequency.png">
+<img src="Images/NatrualFrequency.png">
   
 <p align="center">
 <img src="Images/ProportionalGain.png">
