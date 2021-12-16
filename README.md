@@ -38,21 +38,26 @@ The modeling used for our X-axis was replicated for the Y-axis due to symetry in
 <p align="center">
 <img src="Images/nonlinear.png">
 <p align="center"><b>Figure 2: Equation for Nonlinear Motion 
+  
 The arm of the motor and its relationship to the angle of the plate can be used with small angle approximation to form a near linearization equation
 <p align="center">
 <img src="Images/LinearArm.png">
 <p align="center"><b>Figure 3: Equation for Linear Motion with Motor Arm
+  
 The lapace of the linear equation can be used to find the transfer function 
 <p align="center">
 <img src="Images/TransferFunction.png">
 <p align="center"><b>Figure 4: Transfer Function
+  
 With the specifications of less than 5% overshoot and less then 3 seconds of settling time, an equation for the damping ratio and natural frequency can be found
 <p align="center">
 <img src="Images/Zeta.png">
 <p align="center"><b>Figure 6: Damping Ratio Equation 
+  
 <p align="center">
 <img src="Images/NatrualFrequency.png">
 <p align="center"><b>Figure 7: Natural Frequency Equation
+  
 These can be used to find proportional and derivative gain
 <p align="center">
 <img src="Images/ProportionalGain.png">
