@@ -15,7 +15,7 @@
    </p>
  <p align="left"><b>Table of Contents
     </p>
-<p align="left">1. [Introduction]
+<p align="left">1. [Introduction](https://github.com/RBrewerChico/Ball-On-Plate/main/README.md#1. Inroduction)
    </p>
 <p align="left">2. [Mathamatical Models & System Requirements]
    </p>
