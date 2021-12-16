@@ -35,7 +35,7 @@ This project is organized as follows (following the introduction); section 2 dis
  
 ## 2. Modeling
   ### Mathematical Equations
-The modeling used for our X-axis was replicated for the Y-axis due to symetry in the model. The model in figure 1 was used to solve the the nonliear equation of motion of the ball
+The modeling used for our X-axis was replicated for the Y-axis due to symetry in the model. The model in figure 1 was used to solve the nonliear equation of motion of the ball
 <p align="center">
 <img src="Images/nonlinear.png">
 <p align="center"><b>Figure 2: Equation for Nonlinear Motion 
