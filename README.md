@@ -14,7 +14,7 @@
 <p align="center"><b> Fall 2021
    </p>
   
-### Table of Contents
+Table of Contents
  1. [Introduction](#1-introduction)
  2. [Modeling](#2-modeling)
  3. [Controller Design & Simulation](#3-controller-design--simulation)
@@ -106,4 +106,8 @@ The coppelia model utilized multiple joint connections as well as dynamic object
 
 ## 4. Conclusion
 ## 5. Appendix
+  
+<p align="center">
+  <img src="Images/Final Matlab Simulation Code(1).png">
+  <img src="Images/Final Matlab Simulation Code(2).png>"
 ## 6. References
