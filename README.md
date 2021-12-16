@@ -17,10 +17,10 @@
 Table of Contents
  1. [Introduction](#1-introduction)
  2. [Modeling](#2-modeling)
- 3. [Controller Design & Simulation]
- 6. [Conclusion]
- 7. [Appendix]
- 8. [References]
+ 3. [Controller Design & Simulation](#3-controller-design--simulation)
+ 6. [Conclusion](#6-conclusion)
+ 7. [Appendix](#5-appendix)
+ 8. [References](#references)
    
 ## 1. Introduction
 The purpose of this system is to balance a ball on a plate using two stepper motors attached in line to the bottom side of the plate. The ball would be placed on the plate, the plate would move in the desired axis to center the ball on the plate. The biggest challenge for this project is the plate positioning as well as the ball balance math. These have to work in kind to produce a position on the plate. The plate is linked via X and Y axis that are shown in the picture below.
