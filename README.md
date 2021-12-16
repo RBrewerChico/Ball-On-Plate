@@ -30,8 +30,8 @@ The purpose of the ball and plate system discussed in this report is to balance 
 This project is organized as follows (following the introduction); section 2 discusses the modeling aspects of the system. This includes the mathematical equations and the working system definition. Section 3 discusses the design and simulation using several software programs including Matlab, Simulink, and Copellia. Section 4 discusses the results of the above sections in a conclusion, section 5 is an appendix which contains the final Matlab code, and the final section (6) contains the appropriate references. 
 
 <p align="center">
-<img src="Images/Ball & Plate 1D.png">
-<p align="center"><b>Figure 1: Equation for Nonlinear Motion 
+<img src="Images/Ball & Plate-1D.png">
+<p align="center"><b>Figure 1: one dimensional model of ball on plate
  
 ## 2. Modeling
   ### Mathematical Equations
