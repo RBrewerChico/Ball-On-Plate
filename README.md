@@ -35,7 +35,27 @@ The purpose of this system is to balance a ball on a plate using two stepper mot
 
 ## 2. Mathamatical Models & System Requirements
 The modeling used for our X-axis was replicated as well for the Y-axis. The model given by...(finish)
+<p align="center">
+<img src="Images/nonlinear.png">
+  
+<p align="center">
+<img src="Images/LinearArm.png">
+  
+<p align="center">
+<img src="Images/TransferFunction.png">
 
+<p align="center">
+<img src="Images/Zeta.png">
+  
+<p align="center">
+<img src="Images/NaturalFrequency.png">
+  
+<p align="center">
+<img src="Images/ProportionalGain.png">
+  
+<p align="center">
+<img src="Images/DerivativeGain.png">
+  
 ## 3. MATLAB Code and Testing
 The following figure contains the Matlab code used. 
 The interpretation of the code is as follows:
@@ -64,13 +84,6 @@ The figure below displays the final Simulink result file used for this project. 
   
   
 ## 5. Coppelia
-To model the physical ball and plate system, coppelia was used. The following image displays the coppelia image for this project.
-  
-<p align="center">  
-  <img src="Images/Ball and Plate Coppelia.png">
-  
-The coppelia model utilized multiple joint connections as well as dynamic objects. The plate (where the ball has free motion) was held in place using a series of rods and joints. More specifically, a spherical joint served as the direct connection to the plate
-  
 
 ## 6. Conclusion
 
