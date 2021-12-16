@@ -16,11 +16,7 @@
  Table of Contents
  1. [Introduction]
  2. [Modeling]
-    -Mathematical Equations
-    -Working System Definiton
  3. [Controller Design & Simulation]
-    -Simulink
-    -Coppelia
  6. [Conclusion]
  7. [Appendix]
  8. [References]
@@ -29,12 +25,12 @@
 The purpose of this system is to balance a ball on a plate using two stepper motors attached in line to the bottom side of the plate. The ball would be placed on the plate, the plate would move in the desired axis to center the ball on the plate. The biggest challenge for this project is the plate positioning as well as the ball balance math. These have to work in kind to produce a position on the plate. The plate is linked via X and Y axis that are shown in the picture below.
 
 ## 2. Modeling
+  -Mathematical Equations
 The modeling used for our X-axis was replicated for the Y-axis due to symetry in the model. The model in figure 1 was used to solve the the nonliear equation of motion of the ball
 <p align="center">
 <img src="Images/nonlinear.png">
 <p align="center"><b>Figure 2: Equation for Nonlinear Motion 
-
-#Mathematical Equations 
+ 
   
 The arm of the motor and its relationship to the angle of the plate can be used with small angle approximation to form a near linearization equation
 <p align="center">
@@ -63,7 +59,7 @@ These can be used to find proportional and derivative gain
 <img src="Images/DerivativeGain.png">
 <p align="center"><b>Figure 9: Derivative Gain Equation
   
-#Working System Definition
+-Working System Definition
   
   
 ## 3. Controller Design & Simulation
@@ -87,7 +83,7 @@ The below image is a graph depicitng output data from Matlab of position vs. tim
 
 
   
-#Simulink
+-Simulink
   
 The figure below displays the final Simulink result file used for this project. Walking through the image, the first step is to enter a desired position for the ball. From here, the balls position is obtained and inputed into the left side of the Simulink image. The obtained data is from the coppelia and Matlab codes explained in the previous sections. The next step is calculating the motor angle, which is a direct result of the Simulink simulation. The final step for Simulink is a reverse of an earlier step; the calculated motor angle value is transferred back into the Coppelia and Matlab code, thus alerting the motor of the required motor angle.
   
@@ -95,7 +91,7 @@ The figure below displays the final Simulink result file used for this project. 
   <img src="Images/Simulink Testing Diagram.png">
   
   
-#Coppelia
+-Coppelia
   
 To model the physical ball and plate system, coppelia was used. The following image displays the coppelia image for this project.
 
@@ -105,5 +101,5 @@ To model the physical ball and plate system, coppelia was used. The following im
 The coppelia model utilized multiple joint connections as well as dynamic objects. The plate (where the ball has free motion) was held in place using a series of rods and joints. More specifically, a spherical joint served as the direct connection to the plate and this allows the plate to rotate/ swivel in all directions. Connected to the spherical joint are two support rods with a linearly sliding prismatic joint. The prismatic joint serves as a connection for the two support rods and allows the plate to move vertically. The combination of the unique joints and rods allows the system to move in three dimensions across the x-, y-, and z- axes. The motion of the support rods is provided by two motors. The final object in the ball and plate system modled in coppelia is a vision sensor that is above the plate. The location of the vision sensor provides a birds-eye view of the plate which allows for sensing ball position and movement.
 
 ## 6. Conclusion
-
+## 7. Appendix
 ## 7. References
