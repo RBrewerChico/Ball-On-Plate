@@ -15,7 +15,7 @@
    </p>
  Table of Contents
  1. [Introduction]
- 2. [Mathamatical Models & System Requirements]
+ 2. [Mathamatical Models & System Requirements](https://github.com/RBrewerChico/Ball-On-Plate#2-Mathamatical-Models--System-Requirements)
  3. [MATLAB Code and Testing]
  4. [Simulink]
  5. [Coppelia]
