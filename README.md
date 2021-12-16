@@ -102,4 +102,4 @@ The coppelia model utilized multiple joint connections as well as dynamic object
 
 ## 6. Conclusion
 ## 7. Appendix
-## 7. References
+## 8. References
