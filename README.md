@@ -13,8 +13,9 @@
   </p>
 <p align="center"><b> Fall 2021
    </p>
- Table of Contents
- 1. [Introduction]
+  
+Table of Contents
+ 1. [Introduction](
  2. [Modeling]
  3. [Controller Design & Simulation]
  6. [Conclusion]
