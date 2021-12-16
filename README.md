@@ -64,6 +64,13 @@ The figure below displays the final Simulink result file used for this project. 
   
   
 ## 5. Coppelia
+To model the physical ball and plate system, coppelia was used. The following image displays the coppelia image for this project.
+  
+<p align="center">  
+  <img src="Images/Ball and Plate Coppelia.png">
+  
+The coppelia model utilized multiple joint connections as well as dynamic objects. The plate (where the ball has free motion) was held in place using a series of rods and joints. More specifically, a spherical joint served as the direct connection to the plate
+  
 
 ## 6. Conclusion
 
