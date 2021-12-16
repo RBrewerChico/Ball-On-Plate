@@ -35,7 +35,7 @@ This project is organized as follows (following the introduction); section 2 dis
  
 ## 2. Modeling
   ### Mathematical Equations
-The modeling used for our X-axis was replicated for the Y-axis due to symetry in the model. The model in figure 1 was used to solve the nonliear equation of motion of the ball
+The modeling used for our X-axis was replicated for the Y-axis due to symmetry in the model. The model in Figure 1 was used to solve the nonliear equation of motion of the ball
 <p align="center">
 <img src="Images/nonlinear.png">
 <p align="center"><b>Figure 2: Equation for Nonlinear Motion 
@@ -92,16 +92,16 @@ Clear all possible variables, create a link to coppelia, create/ set up physical
 Once connected to coppelia code continues to run in the following order:
 Initialize simulink, set up handles, gather coppelia data, update simulink value(s), run simulink, output data from simulink, send output data to coppelia to change motor angle, repeat (until coppelia is not running).
   
-For the provided Matlab code in the below figure, note that manual switches were added. This was added because the link between copellia and Matlab could not be properly configured with the current code chunks.
+For the provided Matlab code in the below figure, note that manual switches were added. This was added because the link between Copellia and Matlab could not be properly configured with the current code chunks.
 
-The mathematical model was tested using the following Matlab code and simulink:
+The mathematical model was tested using the following Matlab code and Simulink:
 <p align="center">
   <img src="Images/Simulink Testing Code(1).png">
 <p align="center">
   <img src="Images/Simulink Testing Code(2).png">
 
            
-The below image is a graph depicitng output data from Matlab of position vs. time of the ball of the system. Note that the x- and y- positions of the ball are listed independently on the graph and the y- position rapidly increases in relation to the x- position.          
+The below image is a graph depiciting output data from Matlab of position vs. time of the ball of the system. Note that the x- and y- positions of the ball are listed independently on the graph and the y- position rapidly increases in relation to the x- position.          
 <p align="center">
   <img src="Images/Simulink Testing Graph.png">
 
