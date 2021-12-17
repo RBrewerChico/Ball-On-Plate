@@ -139,3 +139,5 @@ The ball and plate system is used to further explore the elementary concepts in 
   Galvan-Colmenares, S., Moreno-Armendáriz, M. A., Rubio, J. D., Ortíz-Rodriguez, F., Yu, W., &amp; Aguilar-Ibáñez, C. F. (2014). Dual PD control regulation with nonlinear    compensation for a ball and plate system. Mathematical Problems in Engineering, 2014, 1-10. doi:10.1155/2014/894209
   
   NISE, N. S. (2020). Control Systems Engineering. S.l.: JOHN WILEY.
+
+  2 DOF Ball Balancer Workbook, https://www.made-for-science.com/en/quanser/?df=made-for-science-quanser-2-dof-ball-balancer-coursewarestud-matlab.pdf. 
